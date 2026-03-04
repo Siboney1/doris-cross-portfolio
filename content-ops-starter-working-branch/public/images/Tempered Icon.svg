@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" align="right" viewBox="0 0 44 60" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>logo/shield</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-library" transform="translate(-328.000000, -427.000000)" fill="#FFCD00">
+            <g id="brand" transform="translate(70.000000, 84.000000)">
+                <g id="shield" transform="translate(104.000000, 262.000000)">
+                    <g id="2" transform="translate(124.000000, 54.000000)">
+                        <g id="logo/shield" transform="translate(30.000000, 27.000000)">
+                            <g id="tempered-networks-logo">
+                                <path d="M36.8573065,34.7997458 L25.465781,46.2948305 L25.465781,18.9948305 L36.8573065,18.9948305 L36.8573065,34.7997458 Z M18.4289052,46.2948305 L7.03687586,34.7997458 L7.03687586,18.9948305 L18.4289052,18.9948305 L18.4289052,46.2948305 Z M43.8941823,11.8939831 L43.8941823,37.7407627 L21.9470912,59.8873729 L0,37.7407627 L0,11.8939831 L43.8941823,11.8939831 Z M43.8943335,-7.22585833e-15 L43.8943335,7.10084746 L0.000655061842,7.10084746 L0.000655061842,-7.22585833e-15 L43.8943335,-7.22585833e-15 Z" id="shield"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
