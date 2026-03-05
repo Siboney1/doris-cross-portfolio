@@ -201,7 +201,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Enterprise SaaS CRM — The Builder Group
-        tagline: Flutter · GoRouter · AI-Directed Development · 2024–Present
+        tagline: Flutter · Flutter and Dart · AI-Directed Development · 2024–Present
         subtitle: Fullstack Desktop Application · 20+ Integrated Modules
         text: >-
           Designed and built a full enterprise CRM desktop application using
@@ -210,7 +210,7 @@ sections:
           pipeline management, multi-department support ticketing, VoIP dialer
           integration, payroll and HR administration, legal case management, and
           real-time performance analytics. Owned all product decisions,
-          component architecture, GoRouter navigation design, and quality
+          component architecture, Flutter and Dart navigation design, and quality
           assurance of AI-generated output across every module.
         actions:
           - label: View Project
@@ -306,7 +306,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Enterprise SaaS Application · Flutter · GoRouter · AI-Directed Development
+    subtitle: Enterprise SaaS Application · Flutter · Flutter and Dart · AI-Directed Development
     items:
       - type: FeaturedItem
         title: CRM Dashboard & Analytics
@@ -406,12 +406,12 @@ sections:
             flexDirection: col
       - type: FeaturedItem
         title: VoIP Dialer & Navigation
-        tagline: AI-Assisted · GoRouter
+        tagline: AI-Assisted · Flutter and Dart
         subtitle: ''
         text: >-
           VoIP dialer with call scripting and contact management. Role-based
           navigation with collapsible sidebar, dynamic breadcrumbs, and nested
-          route management using GoRouter.
+          route management using Flutter and Dart.
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -469,7 +469,7 @@ sections:
           - Component-driven architecture prompting
           - Requirements-to-code translation
           - Claude · ChatGPT · GitHub Copilot
-          - Flutter / GoRouter app development
+          - Flutter / Flutter and Dart app development
           - AI output validation & correction
         actions: []
         colors: bg-light-fg-dark
@@ -665,7 +665,7 @@ sections:
 
   - type: ImageGallerySection
     elementId: clients
-    subtitle: Organizations Where I Have Delivered Results
+    subtitle: A Proven Track Record Across Industry Leaders
     images:
       - url: /images/microsoft-6.svg
         altText: Microsoft
@@ -732,7 +732,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Master of Science in Information Management
-        tagline: University of Washington · June 2024
+        tagline: University of Washington
         subtitle: 'Specialization: Business Intelligence / Program & Project Management'
         text: >-
           Graduate-level study in information systems, business intelligence,
@@ -752,7 +752,7 @@ sections:
             flexDirection: col
       - type: FeaturedItem
         title: Bachelor of Arts – Communication Studies
-        tagline: University of North Carolina at Charlotte · May 2001
+        tagline: University of North Carolina at Charlotte
         subtitle: Organizational Communication · Technical Communications Minor
         text: >-
           Foundation in organizational communication, technical writing, and
