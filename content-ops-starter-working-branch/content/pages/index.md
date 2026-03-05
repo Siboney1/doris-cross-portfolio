@@ -234,7 +234,7 @@ sections:
             flexDirection: col
       - type: FeaturedItem
         title: Data-Driven Sales Analysis Dashboard
-        tagline: University of Washington iSchool · Spring 2024
+        tagline: University of Washington iSchool
         subtitle: Snowflake · Power BI · IBM Cognos · Tableau
         text: >-
           Designed data models and ETL pipelines for integration into Snowflake
@@ -255,7 +255,7 @@ sections:
             flexDirection: col
       - type: FeaturedItem
         title: IT Infrastructure & Technology Roadmap
-        tagline: Love Her Corporation · Nov 2019 – Feb 2022
+        tagline: Love Her Corporation
         subtitle: Azure AD · NIST CSF · E-Commerce Platform
         text: >-
           Built the entire IT infrastructure and technology roadmap for a
@@ -566,7 +566,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Senior Technical Writer & SharePoint Admin
-        tagline: Microsoft (Covestic / ATOS / Siemens) · 2009 – 2021
+        tagline: Microsoft (Covestic / ATOS / Siemens)
         subtitle: Redmond, WA · Xbox Product Services & Operations
         text: >-
           Executed multiple SharePoint-to-SharePoint hybrid cloud migrations as
@@ -594,7 +594,7 @@ sections:
               borderRadius: medium
       - type: FeaturedItem
         title: Lead Technical Writer
-        tagline: Spectro Cloud Inc. · Feb 2022 – Oct 2022
+        tagline: Spectro Cloud Inc.
         subtitle: Kubernetes Management Platform
         text: >-
           Lead writer for a Kubernetes management SaaS — documenting cloud,
