@@ -154,6 +154,22 @@
     .sb-image-strip-content {
         min-width: 80rem;
     }
+    .sb-image-strip-content .sb-component-image-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+        height: 64px;
+        padding: 0 24px;
+        flex-shrink: 0;
+    }
+    .sb-image-strip-content .sb-component-image-block img {
+        max-height: 36px;
+        max-width: 110px;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
 
     /* Carousel */
     .sb-carousel-dot {
