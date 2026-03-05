@@ -16,15 +16,15 @@
         "glob": "^9.0.0",
         "markdown-to-jsx": "^7.4.7",
         "marked": "^13.0.0",
-        "next": "^14.2.4",
+        "next": "^16.1.6",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
-        "swiper": "^9.4.1",
+        "swiper": "^12.1.2",
         "tailwindcss": "^3.4.3"
     },
     "devDependencies": {
         "@base2/pretty-print-object": "^1.0.2",
-        "@stackbit/cms-git": "^1.0.0",
+        "@stackbit/cms-git": "^1.0.37",
         "@stackbit/types": "^2.0.1",
         "@types/glob": "^8.1.0",
         "@types/react": "^18.3.3",
