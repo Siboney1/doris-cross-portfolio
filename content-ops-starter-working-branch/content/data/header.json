@@ -17,20 +17,20 @@
             "type": "Link"
         },
         {
-            "label": "Expertise",
+            "label": "Qualifications",
+            "url": "/#qualifications",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Experience",
             "url": "/#expertise",
             "style": "secondary",
             "type": "Link"
         },
         {
-            "label": "Projects",
-            "url": "/#projects",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Blog",
-            "url": "/blog",
+            "label": "Education",
+            "url": "/#education",
             "style": "secondary",
             "type": "Link"
         }
