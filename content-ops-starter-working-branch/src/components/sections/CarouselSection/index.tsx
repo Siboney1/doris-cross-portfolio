@@ -2,7 +2,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperClass from 'swiper';
-import { EffectFade } from 'swiper';
+import { EffectFade } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 
