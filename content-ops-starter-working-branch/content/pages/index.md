@@ -8,31 +8,31 @@ sections:
       color: text-light
       type: TitleBlock
     subtitle: >-
-      AI-Directed Application Development · Fullstack Product Management · Information Systems
+      I build enterprise software. AI is how I execute.
     text: >
-      Redmond, WA · 425.679.9251 · DorisCross@outlook.com ·
-      linkedin.com/in/doris-cross
+      Fullstack AI Project Manager · 15+ years enterprise technology ·
+      University of Washington MSIM
     actions:
-      - label: View LinkedIn
-        altText: LinkedIn Profile
-        url: 'https://www.linkedin.com/in/doris-cross'
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Link
-      - label: See My Work
+      - label: See My Projects
         altText: View Projects
         url: '/#projects'
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: ''
         type: Button
+      - label: Contact Me
+        altText: Contact
+        url: '/#contact'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
+        type: Button
     badge:
-      label: Building Production Apps with AI
+      label: Open to Opportunities
       color: text-primary
       type: Badge
       elementId: ''
@@ -42,10 +42,92 @@ sections:
         alignItems: center
         flexDirection: col
         padding:
-          - pt-28
+          - pt-36
           - pl-16
-          - pb-28
+          - pb-36
           - pr-16
+
+  - type: FeaturedItemsSection
+    title: null
+    items:
+      - type: FeaturedItem
+        title: '15+'
+        tagline: Years Enterprise Tech
+        subtitle: ''
+        text: ''
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: medium
+            flexDirection: col
+            textAlign: center
+      - type: FeaturedItem
+        title: '20+'
+        tagline: App Modules Built
+        subtitle: ''
+        text: ''
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: medium
+            flexDirection: col
+            textAlign: center
+      - type: FeaturedItem
+        title: '11'
+        tagline: Enterprise Organizations
+        subtitle: ''
+        text: ''
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: medium
+            flexDirection: col
+            textAlign: center
+      - type: FeaturedItem
+        title: MSIM
+        tagline: University of Washington
+        subtitle: ''
+        text: ''
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: medium
+            flexDirection: col
+            textAlign: center
+    variant: four-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-8
+          - pl-8
+          - pb-8
+          - pr-8
+        justifyContent: center
 
   - type: GenericSection
     elementId: about
@@ -56,7 +138,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: I build enterprise software. AI is how I execute.
+    subtitle: ''
     text: >
       I am a fullstack AI project manager with 15+ years of enterprise
       technology experience — and I use that depth to build production-grade
@@ -73,15 +155,21 @@ sections:
       I am not a developer who uses AI to write faster. I am a product manager
       and systems thinker who uses AI to build — owning every decision from
       information architecture to user flow to data model to final delivery.
-
-
-      Backed by an MSIM from the University of Washington, 12+ years of
-      knowledge management and documentation at Microsoft, and hands-on
-      experience in BI, program management, and enterprise IT.
-    colors: bg-neutral-fg-dark
+    actions:
+      - label: View My Projects
+        altText: View Projects
+        url: '/#projects'
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+        type: Button
+    colors: bg-light-fg-dark
     styles:
       self:
         flexDirection: col
+        alignItems: center
         padding:
           - pt-16
           - pl-16

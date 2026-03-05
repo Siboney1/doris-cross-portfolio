@@ -3,7 +3,7 @@
     "dark": "#1C1C1E",
     "neutral": "#F0F2F5",
     "neutralAlt": "#E2E6EB",
-    "primary": "#1A3A5C",
+    "primary": "#2563EB",
     "fontBody": "sans",
     "fontHeadlines": "serif",
     "h1": {
@@ -57,11 +57,11 @@
     "buttonPrimary": {
         "weight": "semibold",
         "case": "none",
-        "letterSpacing": "normal",
-        "borderRadius": "DEFAULT",
-        "shadow": "none",
-        "horizontalPadding": 30,
-        "verticalPadding": 12,
+        "letterSpacing": "wide",
+        "borderRadius": "full",
+        "shadow": "lg",
+        "horizontalPadding": 36,
+        "verticalPadding": 14,
         "type": "ThemeStyleButton"
     },
     "buttonSecondary": {
