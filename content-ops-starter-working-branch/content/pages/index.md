@@ -54,7 +54,7 @@ sections:
       color: text-dark
       styles:
         self:
-          textAlign: left
+          textAlign: center
       type: TitleBlock
     subtitle: I build enterprise software. AI is how I execute.
     text: >
@@ -107,7 +107,7 @@ sections:
       color: text-dark
       styles:
         self:
-          textAlign: left
+          textAlign: center
       type: TitleBlock
     subtitle: Production applications built through AI-directed development
     items:
@@ -197,7 +197,7 @@ sections:
           - pr-8
         justifyContent: center
       subtitle:
-        textAlign: left
+        textAlign: center
 
   - type: DividerSection
     title: Divider
@@ -216,7 +216,7 @@ sections:
       color: text-dark
       styles:
         self:
-          textAlign: left
+          textAlign: center
       type: TitleBlock
     subtitle: Enterprise SaaS Application · Flutter · GoRouter · AI-Directed Development
     items:
@@ -346,7 +346,7 @@ sections:
           - pr-8
         justifyContent: center
       subtitle:
-        textAlign: left
+        textAlign: center
 
   - type: DividerSection
     title: Divider
@@ -366,7 +366,7 @@ sections:
       color: text-dark
       styles:
         self:
-          textAlign: left
+          textAlign: center
       type: TitleBlock
     subtitle: A full-stack skill set spanning AI, product, data, and enterprise systems
     items:
@@ -453,7 +453,7 @@ sections:
           - pr-8
         justifyContent: center
       subtitle:
-        textAlign: left
+        textAlign: center
 
   - type: DividerSection
     title: Divider
@@ -472,7 +472,7 @@ sections:
       color: text-dark
       styles:
         self:
-          textAlign: left
+          textAlign: center
       type: TitleBlock
     subtitle: 15+ years across documentation, program management, and business intelligence
     items:
@@ -562,7 +562,7 @@ sections:
           - pr-8
         justifyContent: center
       subtitle:
-        textAlign: left
+        textAlign: center
 
   - type: DividerSection
     title: Divider
@@ -638,7 +638,7 @@ sections:
       color: text-dark
       styles:
         self:
-          textAlign: left
+          textAlign: center
       type: TitleBlock
     subtitle: Academic Foundation
     items:
@@ -716,7 +716,7 @@ sections:
           - pr-8
         justifyContent: center
       subtitle:
-        textAlign: left
+        textAlign: center
 
   - type: DividerSection
     title: Divider
@@ -759,7 +759,7 @@ sections:
               - pb-9
               - pl-9
               - pr-9
-            textAlign: left
+            textAlign: center
             borderRadius: large
             flexDirection: row
             justifyContent: center
@@ -791,7 +791,7 @@ sections:
               - pb-9
               - pl-9
               - pr-9
-            textAlign: left
+            textAlign: center
             borderRadius: large
             flexDirection: row
             justifyContent: center
@@ -823,7 +823,7 @@ sections:
               - pb-9
               - pl-9
               - pr-9
-            textAlign: left
+            textAlign: center
             borderRadius: large
             flexDirection: row
             justifyContent: center
