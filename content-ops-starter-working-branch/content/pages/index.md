@@ -5,14 +5,12 @@ sections:
   - type: GenericSection
     title:
       text: Doris Cross, MSIM
-      color: text-dark
+      color: text-light
       type: TitleBlock
-    subtitle: Information Management Professional
+    subtitle: >-
+      Transforming complex information into clear, actionable outcomes —
+      Technical Writing · Program Management · Business Intelligence · IT Consulting
     text: >
-      Technical Writer · Program Manager · Business Intelligence Analyst ·
-      IT Consultant
-
-
       Redmond, WA · 425.679.9251 · DorisCross@outlook.com ·
       linkedin.com/in/doris-cross
     actions:
@@ -22,32 +20,32 @@ sections:
         showIcon: true
         icon: arrowRight
         iconPosition: right
-        style: primary
+        style: secondary
         elementId: ''
         type: Link
       - label: Contact Me
         altText: Contact
-        url: '#contact'
+        url: '/'
         showIcon: false
         icon: arrowRight
         iconPosition: right
-        style: secondary
+        style: primary
         elementId: ''
         type: Button
     badge:
-      label: Open to Opportunities
+      label: Available for Engagements
       color: text-primary
       type: Badge
       elementId: ''
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         alignItems: center
         flexDirection: col
         padding:
-          - pt-16
+          - pt-28
           - pl-16
-          - pb-16
+          - pb-28
           - pr-16
 
   - type: GenericSection
@@ -156,7 +154,7 @@ sections:
         text: >-
           Lead writer for a Kubernetes management platform. Documented
           deployment procedures and managed applications for Kubernetes stacks
-          across various environments. Simplified onboarding through
+          across cloud, on-prem, and hybrid environments. Simplified onboarding through
           documentation, video demonstrations, interactive labs, API docs,
           eBooks, and onboarding infographics.
         actions: []
@@ -586,7 +584,7 @@ sections:
         text: >-
           Foundation in organizational communication, technical writing, and
           professional communications. Minor in Technical Communications
-          provided early grounding in documentation, editing, and information
+          established a strong grounding in documentation, editing, and information
           design.
         actions: []
         colors: bg-light-fg-dark
@@ -686,7 +684,7 @@ sections:
         text: >-
           My passion is understanding my customers' business processes and
           meeting critical business goals and outcomes for their organizations.
-          My leadership style is centered around enhancing productivity and
+          My leadership focuses on enhancing productivity and
           efficiency by optimizing processes.
         image:
           url: /images/person-placeholder-light.png
@@ -831,7 +829,7 @@ sections:
         subtitle: Azure AD · NIST CSF · E-Commerce Platform
         text: >-
           Built and executed the technology roadmap for a women's self-care
-          e-commerce startup. Led the IT department from inception — defining
+          e-commerce startup. Built and led the IT department from the ground up — defining
           infrastructure, onboarding the team to Azure AD, implementing
           cybersecurity policies aligned to NIST CSF, and directing
           cross-functional technical project delivery from planning through

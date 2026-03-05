@@ -1,35 +1,34 @@
 {
     "logo": {
         "url": "/images/logo-white.svg",
-        "altText": "Logo light",
+        "altText": "Doris Cross",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "Information Management · Technical Writing · Program Management · Business Intelligence",
     "primaryLinks": {
-        "title": "Product",
+        "title": "Expertise",
         "links": [
             {
-                "label": "Features",
-                "altText": "Features page",
+                "label": "Technical Writing",
                 "url": "/",
-                "icon": "arrowRight",
-                "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Pricing",
-                "url": "/pricing",
-                "icon": "arrowRight",
-                "iconPosition": "right",
+                "label": "Program Management",
+                "url": "/",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Documentation",
+                "label": "Business Intelligence",
                 "url": "/",
-                "icon": "arrowRight",
-                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "Projects",
+                "url": "/",
                 "style": "secondary",
                 "type": "Link"
             }
@@ -37,22 +36,23 @@
         "type": "FooterLinksGroup"
     },
     "secondaryLinks": {
-        "title": "Company",
+        "title": "Connect",
         "links": [
             {
-                "label": "Careers",
-                "altText": "careers page",
-                "url": "/careers",
-                "icon": "arrowRight",
-                "iconPosition": "right",
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/doris-cross",
                 "style": "secondary",
                 "type": "Link"
             },
             {
                 "label": "Blog",
                 "url": "/blog",
-                "icon": "arrowRight",
-                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "Contact",
+                "url": "/",
                 "style": "secondary",
                 "type": "Link"
             }
@@ -61,49 +61,26 @@
     },
     "socialLinks": [
         {
-            "altText": "GitHub link",
-            "url": "https://github.com/netlify",
-            "icon": "github",
-            "type": "Social"
-        },
-        {
-            "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
-            "icon": "twitter",
-            "type": "Social"
-        },
-        {
-            "altText": "LinkedIn link",
-            "url": "https://www.linkedin.com/company/netlify",
+            "altText": "LinkedIn",
+            "url": "https://www.linkedin.com/in/doris-cross",
             "icon": "linkedin",
             "type": "Social"
         },
         {
-            "altText": "Email link",
-            "url": "/",
+            "altText": "Email",
+            "url": "mailto:DorisCross@outlook.com",
             "icon": "mail",
+            "type": "Social"
+        },
+        {
+            "altText": "GitHub",
+            "url": "https://github.com/Siboney1",
+            "icon": "github",
             "type": "Social"
         }
     ],
-    "legalLinks": [
-        {
-            "label": "Terms",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Privacy",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        }
-    ],
-    "copyrightText": "Powered by [Netlify Create](https://www.netlify.com/platform/create/)",
+    "legalLinks": [],
+    "copyrightText": "© 2025 Doris Cross, MSIM · Redmond, WA · DorisCross@outlook.com",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }
