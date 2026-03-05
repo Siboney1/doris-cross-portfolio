@@ -12,19 +12,19 @@
     "primaryLinks": [
         {
             "label": "About",
-            "url": "/",
+            "url": "/#about",
             "style": "secondary",
             "type": "Link"
         },
         {
             "label": "Expertise",
-            "url": "/",
+            "url": "/#expertise",
             "style": "secondary",
             "type": "Link"
         },
         {
             "label": "Projects",
-            "url": "/",
+            "url": "/#projects",
             "style": "secondary",
             "type": "Link"
         },
@@ -39,7 +39,7 @@
         {
             "label": "Contact Me",
             "altText": "Contact Doris Cross",
-            "url": "/",
+            "url": "/#contact",
             "style": "primary",
             "type": "Button"
         }

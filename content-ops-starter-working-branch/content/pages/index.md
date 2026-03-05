@@ -49,6 +49,7 @@ sections:
           - pr-16
 
   - type: GenericSection
+    elementId: about
     title:
       text: Professional Profile
       color: text-dark
@@ -83,7 +84,8 @@ sections:
         justifyContent: center
 
   - type: ImageGallerySection
-    subtitle: Companies I Have Worked With
+    elementId: clients
+    subtitle: A Proven Track Record Across Industry Leaders
     images:
       - url: /images/microsoft-6.svg
         altText: Microsoft
@@ -138,6 +140,7 @@ sections:
           - pr-7
 
   - type: FeaturedItemsSection
+    elementId: expertise
     title:
       text: Technical Writing
       color: text-dark
@@ -759,6 +762,7 @@ sections:
           - pr-7
 
   - type: FeaturedItemsSection
+    elementId: projects
     title:
       text: Featured Projects
       color: text-dark
