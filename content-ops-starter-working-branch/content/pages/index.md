@@ -9,9 +9,9 @@ sections:
       type: TitleBlock
     subtitle: >-
       Transforming complex information into clear, actionable outcomes —
-      Technical Writing · Program Management · Business Intelligence · IT Consulting
+      Information Management, Technical Writing · Program Management · Business Intelligence · IT Consulting
     text: >
-      Redmond, WA · 425.679.9251 · DorisCross@outlook.com ·
+
       linkedin.com/in/doris-cross
     actions:
       - label: View LinkedIn
@@ -59,8 +59,7 @@ sections:
       type: TitleBlock
     subtitle: About Me
     text: >
-      Results-driven technology professional with hands-on experience building
-      enterprise SaaS applications through advanced prompt engineering,
+      Results-driven technology professional with hands-on experience building enterprise SaaS applications through advanced prompt engineering,
       end-to-end program management, and structured information architecture.
       Demonstrated ability to translate complex business requirements into fully
       functional, production-grade software — directing AI-assisted development
@@ -152,8 +151,8 @@ sections:
     items:
       - type: FeaturedItem
         title: Lead Technical Writer
-        tagline: Spectro Cloud Inc. · Feb 2022 – Oct 2022
-        subtitle: Redmond, WA
+        tagline: Spectro Cloud Inc.
+        subtitle: San Jose, WA
         text: >-
           Lead writer for a Kubernetes management platform. Documented
           deployment procedures and managed applications for Kubernetes stacks
@@ -180,7 +179,7 @@ sections:
               borderRadius: medium
       - type: FeaturedItem
         title: Senior Technical Writer
-        tagline: Microsoft (Covestic / ATOS / Siemens) · May 2009 – Sep 2021
+        tagline: Microsoft (Covestic / ATOS / Siemens)
         subtitle: Redmond, WA
         text: >-
           Quality assurance for manuals, reports, catalogs, and technical
@@ -209,7 +208,7 @@ sections:
               borderRadius: medium
       - type: FeaturedItem
         title: Technical Writer / Editor
-        tagline: Tempered Networks, Inc. · Jun 2018 – Dec 2019
+        tagline: Tempered Networks, Inc.
         subtitle: Seattle, WA
         text: >-
           Coordinated with SMEs via interviews and procedure reviews. Documented
