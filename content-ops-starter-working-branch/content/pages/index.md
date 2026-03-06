@@ -1087,16 +1087,6 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DR1CZVNR13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DR1CZVNR13');
-</script>
-
 seo:
   metaTitle: Doris Cross, MSIM – Information Management Professional
   metaDescription: >-
