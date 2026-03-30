@@ -273,7 +273,7 @@ sections:
         tagline: Love Her Corporation · Nov 2019 – Feb 2022
         subtitle: Women's Self-Care E-Commerce Platform
         text: >-
-          Developed and executed the business technology roadmap for a startup
+          list: Developed and executed the business technology roadmap for a startup
           e-commerce platform. <br>Led and coordinated diverse e-commerce projects,
           directing and integrating technical activities. <br>Defined IT department
           structure, produced project plans, led Azure AD onboarding, and
