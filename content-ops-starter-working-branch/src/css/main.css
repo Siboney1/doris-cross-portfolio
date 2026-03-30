@@ -58,7 +58,7 @@
         h3+h4,
         h4+h5,
         h5+h6 {
-            margin-top: 1.5rem;
+            margin-top: 1.25rem;
         }
         ol {
             @apply list-decimal;
@@ -89,7 +89,7 @@
         }
         pre {
             @apply border border-current overflow-x-auto leading-normal;
-            padding: 1.25em;
+            padding: 1.15em;
         }
         hr {
             @apply bg-current border-0 h-px;
