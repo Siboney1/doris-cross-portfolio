@@ -12,7 +12,6 @@ sections:
       Information Management, Technical Writing · Program Management · Business Intelligence · IT Consulting
     text: >
 
-      linkedin.com/in/doris-cross
     actions:
       - label: View LinkedIn
         altText: LinkedIn Profile
@@ -293,7 +292,7 @@ sections:
         title: Founder / IT Professional
         tagline: Siboney Consultants, LLC · Jul 2007 – Present
         subtitle: Redmond, WA
-        list: >-
+        text: >-
           Direct content development from manuscript editing to final
           publication. <br>Establish editorial workflows and governance processes.
           Coordinate cross-functional tasks including design, formatting,
