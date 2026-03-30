@@ -25,7 +25,7 @@ sections:
         type: Link
       - label: Contact Me
         altText: Contact
-        url: '/'
+        url: 'https://www.linkedin.com/in/doris-cross'
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -274,8 +274,8 @@ sections:
         subtitle: Women's Self-Care E-Commerce Platform
         text: >-
           Developed and executed the business technology roadmap for a startup
-          e-commerce platform. Led and coordinated diverse e-commerce projects,
-          directing and integrating technical activities. Defined IT department
+          e-commerce platform. <br>Led and coordinated diverse e-commerce projects,
+          directing and integrating technical activities. <br>Defined IT department
           structure, produced project plans, led Azure AD onboarding, and
           implemented cybersecurity policies including NIST CSF compliance.
         actions: []
@@ -295,9 +295,9 @@ sections:
         subtitle: Redmond, WA
         text: >-
           Direct content development from manuscript editing to final
-          publication. Establish editorial workflows and governance processes.
+          publication. <br>Establish editorial workflows and governance processes.
           Coordinate cross-functional tasks including design, formatting,
-          metadata creation, and vendor engagement. Translate complex narratives
+          metadata creation, and vendor engagement. <br>Translate complex narratives
           into accessible, user-focused content with long-term reusability.
         actions: []
         colors: bg-light-fg-dark
@@ -315,8 +315,8 @@ sections:
         tagline: Siboney Consultants, LLC · Jun 2025 – Present
         subtitle: Redmond, WA
         text: >-
-          Aligning content development with audience needs and market goals.
-          Establishing scalable editorial workflows and governance. Coordinating
+          Aligning content development with audience needs and market goals.<br>
+          Establishing scalable editorial workflows and governance. <br>Coordinating
           design, formatting, metadata, and vendor relationships to deliver
           accessible, reusable content across platforms.
         actions: []
