@@ -657,7 +657,7 @@ sections:
           delivering documentation, knowledge management, and SharePoint
           administration at enterprise scale.
         image:
-          url: /images/Screenshot 2024-06-28 at 6.13.56 PM.png
+          url: /images/setapart.png
           altText: Doris Cross
           styles:
             self:
@@ -719,7 +719,7 @@ sections:
           dashboards, or standing up an IT department for a startup, I deliver
           results that align technology with organizational goals.
         image:
-          url: /images/person-placeholder-light.png
+          url: /images/diffadv.png
           altText: Cross-Domain
           styles:
             self:
