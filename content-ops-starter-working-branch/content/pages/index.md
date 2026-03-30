@@ -273,7 +273,7 @@ sections:
         tagline: Love Her Corporation · Nov 2019 – Feb 2022
         subtitle: Women's Self-Care E-Commerce Platform
         text: >-
-          list: Developed and executed the business technology roadmap for a startup
+          Developed and executed the business technology roadmap for a startup
           e-commerce platform. <br>Led and coordinated diverse e-commerce projects,
           directing and integrating technical activities. <br>Defined IT department
           structure, produced project plans, led Azure AD onboarding, and
@@ -293,7 +293,7 @@ sections:
         title: Founder / IT Professional
         tagline: Siboney Consultants, LLC · Jul 2007 – Present
         subtitle: Redmond, WA
-        text: >-
+        list: >-
           Direct content development from manuscript editing to final
           publication. <br>Establish editorial workflows and governance processes.
           Coordinate cross-functional tasks including design, formatting,
