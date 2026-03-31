@@ -66,12 +66,7 @@
             "icon": "linkedin",
             "type": "Social"
         },
-        {
-            "altText": "Email",
-            "url": "mailto:DorisCross@outlook.com",
-            "icon": "mail",
-            "type": "Social"
-        },
+      
         {
             "altText": "GitHub",
             "url": "https://github.com/Siboney1",
@@ -80,7 +75,7 @@
         }
     ],
     "legalLinks": [],
-    "copyrightText": "© 2025 Doris Cross, MSIM · Redmond, WA · DorisCross@outlook.com",
+    "copyrightText": "© 2025 Doris Cross, MSIM",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }
