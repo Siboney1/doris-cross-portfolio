@@ -316,7 +316,6 @@ sections:
             <li> Aligned editorial strategy with audience and market goals</li>
             <li> Established scalable content workflows and governance</li>
             <li> Delivered accessible, reusable content through cross-functional coordination</li>
-
         actions: []
         colors: bg-light-fg-dark
         styles:
