@@ -293,11 +293,10 @@ sections:
         tagline: Siboney Consultants, LLC · Jul 2007 – Present
         subtitle: Redmond, WA
         text: >-
-          Direct content development from manuscript editing to final
-          publication. <br>Establish editorial workflows and governance processes.
-          Coordinate cross-functional tasks including design, formatting,
-          metadata creation, and vendor engagement. <br>Translate complex narratives
-          into accessible, user-focused content with long-term reusability.
+          •	Provide the business technology roadmap for an online debt collection platform for the startup. 
+          •	Define and sequence feature delivery across product
+          •	Manage scope, prioritized requirements, and coordinated iterative delivery across interconnected system components
+          •	Translate stakeholder requirements into technical specifications, acceptance criteria, and functional user workflows
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -432,7 +431,7 @@ sections:
           - pt-16
           - pl-8
           - pb-16
-          - pr-8
+          - pr-6
         justifyContent: center
       subtitle:
         textAlign: left
