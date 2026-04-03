@@ -256,6 +256,8 @@ sections:
           - pl-7
           - pb-7
           - pr-7
+           borderRadius: x-large
+            flexDirection: col
   - type: FeaturedItemsSection
     title:
       text: Program Management
