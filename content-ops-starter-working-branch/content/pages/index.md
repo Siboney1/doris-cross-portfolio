@@ -267,7 +267,7 @@ sections:
       type: TitleBlock
     subtitle: Project Planning · IT Leadership · Governance
     items:
- - type: FeaturedItem
+      - type: FeaturedItem
         title: Program Manager
         tagline: Love Her Corporation · Nov 2019 – Feb 2022
         subtitle: Women's Self-Care E-Commerce Platform
@@ -288,7 +288,7 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-  - type: FeaturedItem
+      - type: FeaturedItem
         title: Founder / IT Professional
         tagline: Siboney Consultants, LLC · Jul 2007 – Present
         subtitle: Redmond, WA
@@ -296,8 +296,8 @@ sections:
          <li>  Architected technology roadmap for a startup online debt collection platform</li>
          <li>  Sequenced delivery for a multi-module enterprise CRM ecosystem</li>
          <li>  Prioritized requirements and managed scope across integrated systems</li>
-         <li>  Translated business needs into technical specs and workflows for engineering teams</li>
-    actions: []
+         <li>  Translated business needs into technical specs and workflows for engineering teams</li
+        actions: []
         colors: bg-light-fg-dark
         styles:
           self:
@@ -308,14 +308,15 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-- type: FeaturedItem
-        title: Publisher
+      - type: FeaturedItem
+        title: Publisher & Content Strategist
         tagline: Siboney Consultants, LLC · Jun 2025 – Present
         subtitle: Redmond, WA
         text: >-
             <li> Aligned editorial strategy with audience and market goals</li>
             <li> Established scalable content workflows and governance</li>
-            <li> Delivered accessible, reusable content through cross-functional coordination</li>
+            <li>  Delivered accessible, reusable content through cross-functional coordination</li>
+
         actions: []
         colors: bg-light-fg-dark
         styles:
