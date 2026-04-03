@@ -267,7 +267,7 @@ sections:
       type: TitleBlock
     subtitle: Project Planning · IT Leadership · Governance
     items:
-      - type: FeaturedItem
+ - type: FeaturedItem
         title: Program Manager
         tagline: Love Her Corporation · Nov 2019 – Feb 2022
         subtitle: Women's Self-Care E-Commerce Platform
@@ -288,7 +288,7 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-      - type: FeaturedItem
+  - type: FeaturedItem
         title: Founder / IT Professional
         tagline: Siboney Consultants, LLC · Jul 2007 – Present
         subtitle: Redmond, WA
@@ -308,7 +308,7 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-      - type: FeaturedItem
+- type: FeaturedItem
         title: Publisher
         tagline: Siboney Consultants, LLC · Jun 2025 – Present
         subtitle: Redmond, WA
