@@ -293,10 +293,12 @@ sections:
         tagline: Siboney Consultants, LLC · Jul 2007 – Present
         subtitle: Redmond, WA
         text: >-
-          •	Provide the business technology roadmap for an online debt collection platform for the startup. 
-          •	Define and sequence feature delivery across product
-          •	Manage scope, prioritized requirements, and coordinated iterative delivery across interconnected system components
-          •	Translate stakeholder requirements into technical specifications, acceptance criteria, and functional user workflows
+         <li>
+          • Architected technology roadmap for a startup online debt collection platform
+          • Sequenced delivery for a multi-module enterprise CRM ecosystem
+          • Prioritized requirements and managed scope across integrated systems
+          • Translated business needs into technical specs and workflows for engineering teams
+          </li>
         actions: []
         colors: bg-light-fg-dark
         styles:
