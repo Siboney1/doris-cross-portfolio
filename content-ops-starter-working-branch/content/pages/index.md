@@ -272,11 +272,11 @@ sections:
         tagline: Love Her Corporation · Nov 2019 – Feb 2022
         subtitle: Women's Self-Care E-Commerce Platform
         text: >-
-          Developed and executed the business technology roadmap for a startup
-          e-commerce platform. <br>Led and coordinated diverse e-commerce projects,
-          directing and integrating technical activities. <br>Defined IT department
-          structure, produced project plans, led Azure AD onboarding, and
-          implemented cybersecurity policies including NIST CSF compliance.
+         <li> Built the technology roadmap for a startup e-commerce platform </li>
+         <li> Directed cross-functional delivery across multiple technical initiatives</li>
+         <li> Established IT operations, identity management (Azure AD), and project planning</li>
+         <li> Implemented security governance aligned with NIST CSF</li>
+
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -294,10 +294,10 @@ sections:
         subtitle: Redmond, WA
         text: >-
          <li>
-          • Architected technology roadmap for a startup online debt collection platform
-          • Sequenced delivery for a multi-module enterprise CRM ecosystem
-          • Prioritized requirements and managed scope across integrated systems
-          • Translated business needs into technical specs and workflows for engineering teams
+          <li> Architected technology roadmap for a startup online debt collection platform</li>
+        <li>   Sequenced delivery for a multi-module enterprise CRM ecosystem</li>
+        <li>   Prioritized requirements and managed scope across integrated systems</li>
+        <li>   Translated business needs into technical specs and workflows for engineering teams</li>
           </li>
         actions: []
         colors: bg-light-fg-dark
@@ -315,10 +315,10 @@ sections:
         tagline: Siboney Consultants, LLC · Jun 2025 – Present
         subtitle: Redmond, WA
         text: >-
-          Aligning content development with audience needs and market goals.<br>
-          Establishing scalable editorial workflows and governance. <br>Coordinating
-          design, formatting, metadata, and vendor relationships to deliver
-          accessible, reusable content across platforms.
+            <li> Aligned editorial strategy with audience and market goals</li>
+            <li> Established scalable content workflows and governance</li>
+            <li>  Delivered accessible, reusable content through cross-functional coordination</li>
+
         actions: []
         colors: bg-light-fg-dark
         styles:
