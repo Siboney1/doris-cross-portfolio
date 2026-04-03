@@ -256,7 +256,6 @@ sections:
           - pl-7
           - pb-7
           - pr-7
-
   - type: FeaturedItemsSection
     title:
       text: Program Management
