@@ -293,12 +293,10 @@ sections:
         tagline: Siboney Consultants, LLC · Jul 2007 – Present
         subtitle: Redmond, WA
         text: >-
-         <li>
-          <li> Architected technology roadmap for a startup online debt collection platform</li>
-        <li>   Sequenced delivery for a multi-module enterprise CRM ecosystem</li>
-        <li>   Prioritized requirements and managed scope across integrated systems</li>
-        <li>   Translated business needs into technical specs and workflows for engineering teams</li>
-          </li>
+         <li>  Architected technology roadmap for a startup online debt collection platform</li>
+         <li>  Sequenced delivery for a multi-module enterprise CRM ecosystem</li>
+         <li>  Prioritized requirements and managed scope across integrated systems</li>
+         <li>  Translated business needs into technical specs and workflows for engineering teams</li
         actions: []
         colors: bg-light-fg-dark
         styles:
