@@ -783,15 +783,7 @@ sections:
           routing via GoRouter, dynamic data visualisation, and a modular
           feature structure across 20+ screens.
         actions:
-          - label: View Project
-            altText: View The Builder Group CRM
-            url: 'https://your-app-url-here.com'
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Link
+        
         colors: bg-light-fg-dark
         styles:
           self:
