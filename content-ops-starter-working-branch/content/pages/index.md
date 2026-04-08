@@ -270,8 +270,8 @@ sections:
       - type: FeaturedItem
         title: Program Manager
         tagline: Love Her Corporation · Nov 2019 – Feb 2022
-        subtitle: Women's Self-Care E-Commerce Platform
-        text: >-
+        subtitle: Women's Self-Care E-Commerce Platform  
+     text: >-
         <ul>
          <li> Built the technology roadmap for a startup e-commerce platform </li>
          <li> Directed cross-functional delivery across multiple technical initiatives</li>
