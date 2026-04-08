@@ -1018,8 +1018,15 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Let's work together
-    text: >-
-    See Appointments
+    - label: Contact Me
+        altText: Contact
+        url: '[Calendar](https://calendar.app.google/bab8CPr776oLFJmf9)'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+        type: Button
 
    
 seo:
