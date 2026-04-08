@@ -1018,8 +1018,7 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Let's work together
-    text: |-
-      [See Appointments](https://calendar.app.google/bab8CPr776oLFJmf9)
+    text: |- See Appointments
 
    
 seo:
