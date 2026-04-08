@@ -1018,7 +1018,8 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Let's work together
-    text: |- See Appointments
+    text: >-
+    See Appointments
 
    
 seo:
