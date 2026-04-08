@@ -3,7 +3,3 @@
   command = "rm -rf node_modules || true"
   # publish directory (set to your actual publish output if you have one)
   publish = "."
-  
-[build]
-  command = "npm run build"
-  publish = "build"
