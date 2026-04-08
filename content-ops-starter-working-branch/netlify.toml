@@ -4,4 +4,4 @@
   # publish directory (set to your actual publish output if you have one)
 #  publish = "public"
 
-  command = "npm run build" # set only if you need a build step
+#  command = "npm run build" # set only if you need a build step
