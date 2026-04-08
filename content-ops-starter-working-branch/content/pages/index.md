@@ -24,7 +24,7 @@ sections:
         type: Link
       - label: Contact Me
         altText: Contact
-        url: '[Calendar](https://calendar.app.google/bab8CPr776oLFJmf9)'
+        url: '[Calendar]'
         showIcon: false
         icon: arrowRight
         iconPosition: right
