@@ -1,8 +1,0 @@
-[build]
-  base = "content-ops-starter-working-branch"
-  command = "npm run build"
-  publish = "content-ops-starter-working-branch/.next"
-  functions = "content-ops-starter-working-branch/.netlify/functions"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
