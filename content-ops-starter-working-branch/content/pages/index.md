@@ -1018,7 +1018,9 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Let's work together
-    - label: Contact Me
+
+ actions:
+  - label: Contact Me
         altText: Contact
         url: '[Calendar](https://calendar.app.google/bab8CPr776oLFJmf9)'
         showIcon: false
