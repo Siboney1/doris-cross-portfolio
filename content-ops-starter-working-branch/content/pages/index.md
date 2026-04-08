@@ -272,11 +272,12 @@ sections:
         tagline: Love Her Corporation · Nov 2019 – Feb 2022
         subtitle: Women's Self-Care E-Commerce Platform
         text: >-
+        <ul>
          <li> Built the technology roadmap for a startup e-commerce platform </li>
          <li> Directed cross-functional delivery across multiple technical initiatives</li>
          <li> Established IT operations, identity management (Azure AD), and project planning</li>
          <li> Implemented security governance aligned with NIST CSF</li>
-
+      </ul>
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -296,8 +297,8 @@ sections:
          <li>  Architected technology roadmap for a startup online debt collection platform</li>
          <li>  Sequenced delivery for a multi-module enterprise CRM ecosystem</li>
          <li>  Prioritized requirements and managed scope across integrated systems</li>
-         <li>  Translated business needs into technical specs and workflows for engineering teams</li
-        actions: []
+         <li>  Translated business needs into technical specs and workflows for engineering teams</li>
+      actions: []
         colors: bg-light-fg-dark
         styles:
           self:
@@ -782,7 +783,7 @@ sections:
           analytics suite. Built with component-driven architecture, custom
           routing via GoRouter, dynamic data visualisation, and a modular
           feature structure across 20+ screens.
-        actions:
+        actions: []
         
         colors: bg-light-fg-dark
         styles:
