@@ -1,1034 +1,164 @@
----
-title: Home
-slug: /
-sections:
-  - type: GenericSection
-    title:
-      text: Doris Cross, MSIM
-      color: text-light
-      type: TitleBlock
-    subtitle: >-
-      Transforming complex information into clear, actionable outcomes —
-      Information Management, Technical Writing · Program Management · Business Intelligence · IT Consulting
-    text: >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Doris Cross, MSIM – Information Management & Technical Strategy</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;line-height:1.6;color:#222}
+header{background:#111;color:#fff;padding:80px 20px;text-align:center}
+h1{margin:0;font-size:40px}
+.subtitle{font-size:18px;margin-top:10px}
+.container{max-width:1100px;margin:auto;padding:40px 20px}
+.section-title{font-size:28px;margin-bottom:20px}
+.logos{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;margin-top:30px}
+.logo{background:#f4f4f4;padding:15px 25px;border-radius:6px;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:#fafafa;border:1px solid #eee;border-radius:8px;padding:20px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.skill{background:#eee;padding:10px;border-radius:5px;text-align:center}
+footer{background:#111;color:#fff;text-align:center;padding:40px}
+a.button{display:inline-block;margin-top:20px;padding:12px 20px;background:#0066ff;color:white;text-decoration:none;border-radius:5px}
+</style>
+</head>
+<body>
 
-    actions:
-      - label: View LinkedIn
-        altText: LinkedIn Profile
-        url: 'https://www.linkedin.com/in/doris-cross'
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Link
-      - label: Contact Me
-        altText: Contact
-        url: 'https://www.linkedin.com/in/doris-cross'
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
-    badge:
-      label: Available for Engagements
-      color: text-primary
-      type: Badge
-      elementId: ''
-    colors: bg-dark-fg-light
-    styles:
-      self:
-        alignItems: center
-        flexDirection: col
-        padding:
-          - pt-28
-          - pl-16
-          - pb-28
-          - pr-16
+<header>
+<h1>Doris Cross, MSIM</h1>
+<div class="subtitle">Information Management & Technical Strategy</div>
+<div class="subtitle">Technical Writing · Program Management · Business Intelligence · AI‑Directed Development</div>
+<p>12+ years supporting enterprise technology programs including Microsoft, Siemens, and Spectro Cloud.</p>
+<a class="button" href="https://www.linkedin.com/in/doris-cross">View LinkedIn</a>
+</header>
 
-  - type: GenericSection
-    elementId: about
-    title:
-      text: Professional Profile
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: About Me
-    text: >
-      Results-driven technology professional with hands-on experience building enterprise SaaS applications through advanced prompt engineering,
-      end-to-end program management, and structured information architecture.
-      Demonstrated ability to translate complex business requirements into fully
-      functional, production-grade software — directing AI-assisted development
-      across 20+ integrated modules covering CRM, HR, compliance, analytics,
-      and client management.
+<div class="container">
+<h2 class="section-title">Enterprise Experience</h2>
+<div class="logos">
+<div class="logo">Microsoft</div>
+<div class="logo">Xbox</div>
+<div class="logo">Siemens</div>
+<div class="logo">ATOS</div>
+<div class="logo">HP</div>
+<div class="logo">Spectro Cloud</div>
+</div>
+</div>
 
+<div class="container">
+<h2 class="section-title">Professional Profile</h2>
+<p>
+Information management professional specializing in translating complex technical systems into clear documentation, data insights, and operational strategy.
+</p>
+<p>
+Experienced across enterprise SaaS, cloud infrastructure, and startup environments. Known for aligning business goals with scalable technology solutions.
+</p>
+<p>
+Recent work includes directing AI‑assisted development of a multi‑module enterprise CRM platform and building analytics solutions using Snowflake and Power BI.
+</p>
+</div>
 
-      I build software products by combining prompt engineering with program and
-      information management — I direct AI as a development tool, own the
-      architecture decisions, and ensure the output meets real business
-      requirements.
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        flexDirection: col
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
+<div class="container">
+<h2 class="section-title">Core Expertise</h2>
+<div class="skills">
+<div class="skill">Information Architecture</div>
+<div class="skill">Technical Documentation</div>
+<div class="skill">Program & Project Management</div>
+<div class="skill">Data Analytics & Visualization</div>
+<div class="skill">Prompt Engineering</div>
+<div class="skill">Enterprise Knowledge Management</div>
+</div>
+</div>
 
-  - type: ImageGallerySection
-    elementId: clients
-    subtitle: A Proven Track Record Across Industry Leaders
-    images:
-      - url: /images/microsoft-6.svg
-        altText: Microsoft
-        type: ImageBlock
-      - url: /images/xbox-9.svg
-        altText: Xbox
-        type: ImageBlock
-      - url: /images/siemens-ag-logo.svg
-        altText: Siemens
-        type: ImageBlock
-      - url: /images/atos-origin-2011-logo-1.svg
-        altText: Atos
-        type: ImageBlock
-      - url: /images/covestic.png
-        altText: Covestic
-        type: ImageBlock
-      - url: /images/spectro-cloud-logo-for-light.png
-        altText: Spectro Cloud
-        type: ImageBlock
-      - url: /images/Tempered Icon.svg
-        altText: Tempered Networks
-        type: ImageBlock
-      - url: /images/hp-5.svg
-        altText: HP
-        type: ImageBlock
-      - url: /images/viacom.svg
-        altText: Viacom
-        type: ImageBlock
-      - url: /images/showtime-2.svg
-        altText: Showtime Networks
-        type: ImageBlock
-      - url: /images/first-union-bank-1.svg
-        altText: First Union National Bank
-        type: ImageBlock
-    motion: move-to-left
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
+<div class="container">
+<h2 class="section-title">Featured Projects</h2>
+<div class="grid">
+<div class="card">
+<h3>Enterprise SaaS CRM — The Builder Group</h3>
+<p><strong>Flutter · GoRouter · AI‑Directed Development</strong></p>
+<p>Designed a full‑stack enterprise CRM desktop platform with role‑based dashboards, support ticketing, pipeline management, HR administration, and performance analytics across 20+ integrated modules.</p>
+</div>
 
-  - type: DividerSection
-    title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
+<div class="card">
+<h3>Data‑Driven Sales Analysis</h3>
+<p><strong>Snowflake · Power BI · Tableau</strong></p>
+<p>Developed star‑schema data models and BI dashboards analyzing sales risk factors and KPIs using Snowflake and Power BI.</p>
+</div>
 
-  - type: FeaturedItemsSection
-    elementId: expertise
-    title:
-      text: Technical Writing
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Documentation · Knowledge Management · Docs-as-Code
-    items:
-      - type: FeaturedItem
-        title: Lead Technical Writer
-        tagline: Spectro Cloud Inc.
-        subtitle: San Jose, WA
-        text: >-
-          Lead writer for a Kubernetes management platform. Documented
-          deployment procedures and managed applications for Kubernetes stacks
-          across cloud, on-prem, and hybrid environments. Simplified onboarding through
-          documentation, video demonstrations, interactive labs, API docs,
-          eBooks, and onboarding infographics.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        image:
-          url: /images/spectro-cloud-logo-for-light.png
-          altText: Spectro Cloud
-          type: ImageBlock
-          styles:
-            self:
-              borderRadius: medium
-      - type: FeaturedItem
-        title: Senior Technical Writer
-        tagline: Microsoft (Covestic / ATOS / Siemens)
-        subtitle: Redmond, WA
-        text: >-
-          Quality assurance for manuals, reports, catalogs, and technical
-          publications. Executed document migration for 2,000+ knowledge
-          management repository documents on SharePoint. SharePoint
-          Administrator managing information architecture, taxonomy, and content
-          management. Developed web content, style guidelines, and templates for
-          Xbox Product Services and Operations.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        image:
-          url: /images/microsoft-6.svg
-          altText: Microsoft
-          type: ImageBlock
-          styles:
-            self:
-              borderRadius: medium
-      - type: FeaturedItem
-        title: Technical Writer / Editor
-        tagline: Tempered Networks, Inc.
-        subtitle: Seattle, WA
-        text: >-
-          Coordinated with SMEs via interviews and procedure reviews. Documented
-          AWS, GCP, and Azure solution architecture for current product releases.
-          Authored and edited online help documentation including graphics,
-          diagrams, and flowcharts using Microsoft Visio and Adobe Creative
-          Suite.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        image:
-          url: /images/Tempered Icon.svg
-          altText: Tempered Networks
-          type: ImageBlock
-          styles:
-            self:
-              borderRadius: medium
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: left
+<div class="card">
+<h3>Technology Roadmap – Love Her Startup</h3>
+<p><strong>Azure AD · NIST CSF</strong></p>
+<p>Built the IT roadmap and security governance for a women's self‑care e‑commerce startup while directing cross‑functional technical initiatives.</p>
+</div>
+</div>
+</div>
 
-  - type: DividerSection
-    title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
+<div class="container">
+<h2 class="section-title">Technical Writing Experience</h2>
+<div class="grid">
+<div class="card">
+<h3>Spectro Cloud – Lead Technical Writer</h3>
+<p>Documented Kubernetes management platform deployments across cloud and hybrid environments with onboarding documentation, labs, and API docs.</p>
+</div>
 
-  - type: FeaturedItemsSection
-    title:
-      text: Program Management
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Project Planning · IT Leadership · Governance
-    items:
-      - type: FeaturedItem
-        title: Program Manager
-        tagline: Love Her Corporation · Nov 2019 – Feb 2022
-        subtitle: Women's Self-Care E-Commerce Platform  
-     text: >-
-        <ul>
-         <li> Built the technology roadmap for a startup e-commerce platform </li>
-         <li> Directed cross-functional delivery across multiple technical initiatives</li>
-         <li> Established IT operations, identity management (Azure AD), and project planning</li>
-         <li> Implemented security governance aligned with NIST CSF</li>
-      </ul>
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Founder / IT Professional
-        tagline: Siboney Consultants, LLC · Jul 2007 – Present
-        subtitle: Redmond, WA
-        text: >-
-         <li>  Architected technology roadmap for a startup online debt collection platform</li>
-         <li>  Sequenced delivery for a multi-module enterprise CRM ecosystem</li>
-         <li>  Prioritized requirements and managed scope across integrated systems</li>
-         <li>  Translated business needs into technical specs and workflows for engineering teams</li>
-      actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Publisher & Content Strategist
-        tagline: Siboney Consultants, LLC · Jun 2025 – Present
-        subtitle: Redmond, WA
-        text: >-
-            <li> Aligned editorial strategy with audience and market goals</li>
-            <li> Established scalable content workflows and governance</li>
-            <li>  Delivered accessible, reusable content through cross-functional coordination</li>
+<div class="card">
+<h3>Microsoft – Senior Technical Writer</h3>
+<p>Migrated 2,000+ knowledge base documents to SharePoint while managing information architecture and documentation standards.</p>
+</div>
 
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-    variant: three-col-grid
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: left
+<div class="card">
+<h3>Tempered Networks – Technical Writer</h3>
+<p>Authored architecture documentation for AWS, Azure, and GCP solutions including diagrams and technical procedures.</p>
+</div>
+</div>
+</div>
 
-  - type: DividerSection
-    title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
+<div class="container">
+<h2 class="section-title">Skills & Technologies</h2>
+<p>
+Git · Azure AD · SharePoint · Confluence · Power BI · Tableau · Snowflake · SQL · Python · Kubernetes · DITA · Oxygen XML · Markdown · JSON · YAML
+</p>
+</div>
 
-  - type: FeaturedItemsSection
-    title:
-      text: Business Intelligence & Data Analytics
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Data Modeling · Visualization · SQL · Snowflake · Power BI
-    items:
-      - type: FeaturedItem
-        title: Data-Driven Sales Analysis
-        tagline: University of Washington iSchool · Spring 2024
-        subtitle: MSIM Capstone Project
-        text: >-
-          Developed data models and documented datasets for integration into
-          data warehouses using Snowflake. Created interactive dashboards in
-          Power BI, IBM Cognos, and Tableau to track KPIs related to risk in
-          sales initiatives. Leveraged Big Data processing to analyze statistical
-          sales data and identify risk factors.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Analysis & Visualization
-        tagline: Tools & Technologies
-        subtitle: Power BI · Tableau · Snowflake · Kaggle
-        text: >-
-          Proficient in end-to-end BI workflows: ELT/ETL pipeline design,
-          star schema data modeling, and creating executive-ready dashboards.
-          Experience mapping functional requirements for sales data solutions
-          and maintaining traceability to industry standards and best practices.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Cybersecurity & Compliance
-        tagline: NIST CSF · GDPR · CCPA
-        subtitle: Security & Risk Management
-        text: >-
-          Applied NIST Cybersecurity Framework in startup environments.
-          Knowledge of GDPR and CCPA compliance requirements. Experience
-          developing and maintaining IT security policies and governance of
-          technical systems and infrastructure. EIS Analysis & Design expertise.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-6
-        justifyContent: center
-      subtitle:
-        textAlign: left
+<div class="container">
+<h2 class="section-title">Education</h2>
+<div class="grid">
+<div class="card">
+<h3>MS – Information Management</h3>
+<p>University of Washington · 2024</p>
+<p>Specialization: Business Intelligence & Program Management</p>
+</div>
 
-  - type: DividerSection
-    title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
+<div class="card">
+<h3>BA – Communication Studies</h3>
+<p>University of North Carolina at Charlotte</p>
+</div>
+</div>
+</div>
 
-  - type: FeaturedItemsSection
-    title:
-      text: Skills & Technologies
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: A full-stack information management skill set
-    items:
-      - type: FeaturedItem
-        title: Prompt Engineering
-        tagline: Emerging Core Competency
-        subtitle: LLM-Directed Development
-        text: >-
-          LLM-directed software development · Iterative refinement · Structured
-          output design · Multi-turn context management · AI-assisted
-          architecture · Component-driven system design · Requirements-to-code
-          translation · Quality assurance of AI-generated output
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Strategic & Management
-        tagline: Core Competencies
-        subtitle: Program & Information Management
-        text: >-
-          Strategic & Managerial Business Intelligence · Information Management
-          · Data-Driven Problem Solving · Knowledge Management · Process
-          Improvement · Program Management · Policy & Ethics · Technical
-          Documentation · Document Engineering · EIS Analysis & Design · NIST
-          CSF · GDPR · CCPA
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Tools, Platforms & Languages
-        tagline: Technologies
-        subtitle: ''
-        text: >-
-          VSO · ADO · Git · Jira · Microsoft 365 · Azure AD · SharePoint ·
-          Confluence · Oxygen · DITA · Kubernetes · Power BI · Tableau ·
-          Snowflake · Kaggle · Flutter · GoRouter
+<div class="container">
+<h2 class="section-title">What Sets Me Apart</h2>
+<div class="grid">
+<div class="card">
+<h3>Cross‑Domain Expertise</h3>
+<p>Bridging technical documentation, analytics, and program leadership to translate complex systems into business outcomes.</p>
+</div>
 
+<div class="card">
+<h3>Enterprise Experience</h3>
+<p>12+ years supporting global technology organizations delivering documentation and knowledge management solutions.</p>
+</div>
 
-          HTML · XML · CSS · SQL · Python · Markdown · JSON · YAML · Visual
-          Basic · English (Native) · Spanish
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-    variant: three-col-grid
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: left
+<div class="card">
+<h3>AI‑Directed Development</h3>
+<p>Leading AI‑assisted workflows to design and prototype enterprise software systems.</p>
+</div>
+</div>
+</div>
 
-  - type: DividerSection
-    title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
+<footer>
+<h2>Get In Touch</h2>
+<p>Available for consulting engagements, technical writing projects, and information management initiatives.</p>
+<p>LinkedIn: linkedin.com/in/doris-cross</p>
+</footer>
 
-  - type: FeaturedItemsSection
-    title:
-      text: Education
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Academic Foundation
-    items:
-      - type: FeaturedItem
-        title: Master of Science in Information Management
-        tagline: University of Washington · June 2024
-        subtitle: 'Specialization: Business Intelligence / Program & Project Management'
-        text: >-
-          Graduate-level study in information systems, business intelligence,
-          data management, and program management. Completed capstone projects
-          in data analytics and warehouse design using Snowflake, Power BI, IBM
-          Cognos, and Tableau.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Bachelor of Arts – Communication Studies
-        tagline: University of North Carolina at Charlotte · May 2001
-        subtitle: >-
-          Organizational Communication Concentration · Technical Communications
-          Minor
-        text: >-
-          Foundation in organizational communication, technical writing, and
-          professional communications. Minor in Technical Communications
-          established a strong grounding in documentation, editing, and information
-          design.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Certifications & Continuous Learning
-        tagline: Lifelong Learner
-        subtitle: ''
-        text: >-
-          Women in Cloud – Microsoft Learn Challenges · WiT Network Tech Track
-          (Feb 2022, Cohort 5, AZ-900) · Lean Six Sigma (2024) · Google Learn ·
-          Kaggle Challenges · PMP – In Progress · Women in Tech · Women
-          TechMakers · Women in Cloud
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: left
-
-  - type: DividerSection
-    title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-
-  - type: CarouselSection
-    title: null
-    subtitle: What Sets Me Apart
-    items:
-      - title: >-
-          My extensive experience in the business and IT domains has provided me
-          with a highly unique perspective. My ability to adapt to diverse
-          environments and situations is a unique advantage.
-        tagline: Differential Advantage
-        subtitle: 'Doris Cross, MSIM'
-        text: >-
-          12+ years at Microsoft across Covestic, ATOS, and Siemens —
-          delivering documentation, knowledge management, and SharePoint
-          administration at enterprise scale.
-        image:
-          url: /images/setapart.png
-          altText: Doris Cross
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          I lead with empathy and curiosity while modeling behaviors, coaching,
-          and caring for my team and customers.
-        tagline: Leadership Style
-        subtitle: 'Doris Cross, MSIM'
-        text: >-
-          My passion is understanding my customers' business processes and
-          meeting critical business goals and outcomes for their organizations.
-          My leadership focuses on enhancing productivity and
-          efficiency by optimizing processes.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Leadership
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          From technical documentation to business intelligence to program
-          management — I bridge the gap between technical complexity and
-          business clarity.
-        tagline: Cross-Domain Expertise
-        subtitle: 'Doris Cross, MSIM'
-        text: >-
-          Whether documenting Kubernetes deployments, building Power BI
-          dashboards, or standing up an IT department for a startup, I deliver
-          results that align technology with organizational goals.
-        image:
-          url: /images/diffadv.png
-          altText: Cross-Domain
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-    elementId: null
-    variant: next-prev-nav
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-
-  - type: DividerSection
-    title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-
-  - type: FeaturedItemsSection
-    elementId: projects
-    title:
-      text: Featured Projects
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Prompt Engineering · Program Management · Information Architecture
-    items:
-      - type: FeaturedItem
-        title: Enterprise SaaS CRM — The Builder Group
-        tagline: Flutter · GoRouter · AI-Directed Development · 2024–Present
-        subtitle: Full-Stack Desktop Application · 20+ Integrated Modules
-        text: >-
-          Designed and developed a full-stack enterprise CRM desktop application
-          using Flutter — featuring role-based dashboards, a Go-To-Market goal
-          tracking system, client pipeline management, a multi-department
-          support ticketing module, VoIP dialer integration, payroll and HR
-          administration, legal case management, and a real-time performance
-          analytics suite. Built with component-driven architecture, custom
-          routing via GoRouter, dynamic data visualisation, and a modular
-          feature structure across 20+ screens.
-        actions: []
-        
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Data-Driven Sales Analysis
-        tagline: University of Washington iSchool · Spring 2024
-        subtitle: Snowflake · Power BI · IBM Cognos · Tableau
-        text: >-
-          Developed data models and documented datasets for integration into
-          data warehouses using Snowflake. Mapped functional requirements for
-          sales data solutions under star schema modeling standards. Created
-          interactive dashboards in Power BI, IBM Cognos, and Tableau to track
-          KPIs and risk in sales initiatives. Leveraged Big Data processing to
-          identify risk factors and recommend mitigation strategies.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: IT Infrastructure & Technology Roadmap
-        tagline: Love Her Corporation · Nov 2019 – Feb 2022
-        subtitle: Azure AD · NIST CSF · E-Commerce Platform
-        text: >-
-          Built and executed the technology roadmap for a women's self-care
-          e-commerce startup. Built and led the IT department from the ground up — defining
-          infrastructure, onboarding the team to Azure AD, implementing
-          cybersecurity policies aligned to NIST CSF, and directing
-          cross-functional technical project delivery from planning through
-          integration.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: left
-
-  - type: DividerSection
-    title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-
-  - type: FeaturedItemsSection
-    title:
-      text: The Builder Group CRM — Module Breakdown
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Enterprise SaaS Application Built with Flutter & AI-Directed Development
-    items:
-      - type: FeaturedItem
-        title: CRM Dashboard & Analytics
-        tagline: Role-Based · Real-Time
-        subtitle: ''
-        text: >-
-          Multi-role dashboard with drill-down charts, KPI cards, live ticket
-          feeds, and role-specific tab layouts. Portfolio performance charts,
-          lead analytics, money board leaderboards, and SWOT analysis tools.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: GTM Goals & Workflow System
-        tagline: 5-Step Workflow · Task Tracking
-        subtitle: ''
-        text: >-
-          10-field goal cards with daily/weekly task tracking, certificate and
-          reward progress meters, and a 5-step workflow system for structured
-          Go-To-Market planning and execution.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Support Center
-        tagline: 5 Departments · 20 Categories
-        subtitle: ''
-        text: >-
-          Live chat UI, smart ticket routing across 5 departments and 20
-          categories, a searchable knowledge base, and auto-escalation path
-          logic. Multi-department information architecture designed for
-          enterprise support operations.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: HR & Administration
-        tagline: Full HR Suite
-        subtitle: ''
-        text: >-
-          Employee directory, recruitment pipeline, onboarding workflows,
-          compliance tracking, payroll summaries, and engagement reporting —
-          all within a unified administrative interface.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: Client & Pipeline Management
-        tagline: Documents · Refunds · Status Tracking
-        subtitle: ''
-        text: >-
-          Client management system with pipeline views, document management,
-          refund and chargeback workflows, and end-to-end status tracking
-          across the client lifecycle.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-      - type: FeaturedItem
-        title: VoIP Dialer & Navigation
-        tagline: AI-Assisted · GoRouter
-        subtitle: ''
-        text: >-
-          VoIP dialer interface with call scripting, contact management, and
-          AI-assisted features. Role-based navigation with collapsible sidebar,
-          dynamic breadcrumbs, and nested route management using GoRouter.
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-    variant: three-col-grid
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: left
-
-  - type: DividerSection
-    title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-
-  - type: GenericSection
-    elementId: contact
-    title:
-      text: Get In Touch
-      color: text-dark
-      type: TitleBlock
-    subtitle: Let's work together
-    text: |-
-      linkedin.com/in/doris-cross
-
-   
-seo:
-  metaTitle: Doris Cross, MSIM – Information Management Professional
-  metaDescription: >-
-    Portfolio of Doris Cross, MSIM – Technical Writer, Program Manager,
-    Business Intelligence Analyst, and IT Consultant based in Redmond, WA.
-  socialImage: /images/main-hero.jpg
-  type: Seo
-type: PageLayout
----
+</body>
+</html>
