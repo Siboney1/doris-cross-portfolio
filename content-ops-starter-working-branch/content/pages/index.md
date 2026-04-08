@@ -24,7 +24,7 @@ sections:
         type: Link
       - label: Contact Me
         altText: Contact
-        url: 'https://www.linkedin.com/in/doris-cross'
+        url: '[Calendar](https://calendar.app.google/bab8CPr776oLFJmf9)'
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -1019,7 +1019,7 @@ sections:
       type: TitleBlock
     subtitle: Let's work together
     text: |-
-      linkedin.com/in/doris-cross
+      [See Appointments](https://calendar.app.google/bab8CPr776oLFJmf9)
 
    
 seo:
