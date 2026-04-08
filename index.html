@@ -151,6 +151,73 @@ opacity:1;
 transform:translateY(0);
 }
 
+
+  
+  // scroll//
+.timeline{
+border-left:3px solid #1a56ff;
+margin-top:30px;
+padding-left:30px;
+}
+
+.timeline-item{
+margin-bottom:40px;
+position:relative;
+}
+
+.timeline-item::before{
+content:"";
+width:14px;
+height:14px;
+background:#1a56ff;
+border-radius:50%;
+position:absolute;
+left:-38px;
+top:6px;
+}
+
+.timeline-year{
+font-weight:700;
+color:#1a56ff;
+margin-bottom:5px;
+}
+
+  
+.logo-img{
+height:36px;
+margin:0 40px;
+opacity:.8;
+filter:grayscale(100%);
+transition:.3s;
+}
+
+.logo-img:hover{
+opacity:1;
+filter:none;
+}
+
+
+  /* Contact bar */
+.contact-bar{
+position:fixed;
+bottom:20px;
+right:20px;
+background:white;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+padding:12px 16px;
+display:flex;
+gap:14px;
+font-weight:600;
+z-index:999;
+}
+
+.contact-bar a{
+text-decoration:none;
+color:#1a56ff;
+}
+
+  
 </style>
 </head>
 
@@ -171,8 +238,24 @@ transform:translateY(0);
 
 </header>
 
-
 <div class="logo-strip">
+<div class="logo-track">
+
+<img src="https://logo.clearbit.com/microsoft.com" class="logo-img">
+<img src="https://logo.clearbit.com/xbox.com" class="logo-img">
+<img src="https://logo.clearbit.com/siemens.com" class="logo-img">
+<img src="https://logo.clearbit.com/atos.net" class="logo-img">
+<img src="https://logo.clearbit.com/hp.com" class="logo-img">
+<img src="https://logo.clearbit.com/spectrocloud.com" class="logo-img">
+
+<img src="https://logo.clearbit.com/microsoft.com" class="logo-img">
+<img src="https://logo.clearbit.com/xbox.com" class="logo-img">
+<img src="https://logo.clearbit.com/siemens.com" class="logo-img">
+
+</div>
+</div>
+
+  /* <div class="logo-strip">
 <div class="logo-track">
 <div class="logo">Microsoft</div>
 <div class="logo">Xbox</div>
@@ -187,7 +270,7 @@ transform:translateY(0);
 <div class="logo">HP</div>
 <div class="logo">Spectro Cloud</div>
 </div>
-</div>
+</div>  */
 
 
 <div class="container fade">
@@ -235,7 +318,49 @@ Designed the technology roadmap and cybersecurity governance for a startup e‑c
 
 </div>
 </div>
+// End of Feature //
 
+//--Animated Career Timeline//
+
+  <div class="container fade">
+<h2>Career Timeline</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<div class="timeline-year">2024</div>
+<div class="timeline-content">
+<h3>MS – Information Management</h3>
+<p>University of Washington. Focus on Business Intelligence and Program Management.</p>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-year">Microsoft</div>
+<div class="timeline-content">
+<h3>Senior Technical Writer</h3>
+<p>Migrated 2,000+ enterprise knowledge base articles and improved information architecture.</p>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-year">Spectro Cloud</div>
+<div class="timeline-content">
+<h3>Lead Technical Writer</h3>
+<p>Produced Kubernetes deployment documentation and onboarding guides.</p>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-year">Startup CTO</div>
+<div class="timeline-content">
+<h3>Technology Strategy</h3>
+<p>Directed roadmap development, NIST cybersecurity implementation, and AI-assisted platform development.</p>
+</div>
+</div>
+
+</div>
+</div>
 
 <div class="container fade">
 <h2>Core Expertise</h2>
@@ -305,7 +430,7 @@ LinkedIn: linkedin.com/in/doris-cross
 
 </footer>
 
-
+/*   Floating Contact Bar */
 <script>
 
 const observer=new IntersectionObserver(entries=>{
@@ -322,5 +447,20 @@ observer.observe(section)
 
 </script>
 
+
+<div class="contact-bar">
+
+<a href="mailto:your@email.com">Email</a>
+
+<a href="https://linkedin.com/in/doris-cross" target="_blank">
+LinkedIn
+</a>
+
+<a href="resume.pdf" download>
+Resume
+</a>
+
+</div>
+  
 </body>
 </html>
