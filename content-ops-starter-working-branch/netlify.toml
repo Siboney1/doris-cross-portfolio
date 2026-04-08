@@ -2,4 +2,6 @@
   # delete node_modules before packaging the site
 #  command = "rm -rf node_modules || true"
   # publish directory (set to your actual publish output if you have one)
-  publish = "public"
+#  publish = "public"
+
+  command = "npm run build" # set only if you need a build step
