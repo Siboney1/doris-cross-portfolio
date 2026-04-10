@@ -225,12 +225,44 @@ text-decoration:none;
 color:#1a56ff;
 }
 
-  
-</style>
-</head>
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:white;
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:14px 40px;
+z-index:1000;
+}
 
-<body>
-<nav class="navbar">
+.nav-logo{
+font-weight:700;
+font-size:18px;
+}
+
+.nav-links a{
+margin-left:25px;
+text-decoration:none;
+color:#1e293b;
+font-weight:600;
+}
+
+.nav-links a:hover{
+color:#1a56ff;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+
+<div id="progress-bar"></div>
+  
+  <nav class="navbar">
 
 <div class="nav-logo">
 Doris Cross
@@ -449,6 +481,20 @@ document.querySelectorAll(".fade").forEach(section=>{
 observer.observe(section)
 })
 
+
+  window.addEventListener("scroll",()=>{
+
+const winScroll=document.body.scrollTop || document.documentElement.scrollTop
+const height=document.documentElement.scrollHeight - document.documentElement.clientHeight
+
+const scrolled=(winScroll/height)*100
+
+document.getElementById("progress-bar").style.width=scrolled+"%"
+
+})
+
+
+  
 </script>
 
 
