@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHCBGZSX"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-  
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Doris Cross | Information Management & Technical Strategy</title>
@@ -22,8 +16,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 *{box-sizing:border-box;margin:0;padding:0}
 
-
-  
 body{
 font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;
 background:var(--light);
@@ -225,59 +217,12 @@ text-decoration:none;
 color:#1a56ff;
 }
 
-.navbar{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-background:white;
-box-shadow:0 2px 15px rgba(0,0,0,.08);
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:14px 40px;
-z-index:1000;
-}
-
-.nav-logo{
-font-weight:700;
-font-size:18px;
-}
-
-.nav-links a{
-margin-left:25px;
-text-decoration:none;
-color:#1e293b;
-font-weight:600;
-}
-
-.nav-links a:hover{
-color:#1a56ff;
-}
-
-html{
-scroll-behavior:smooth;
-}
-
-
-<div id="progress-bar"></div>
   
-  <nav class="navbar">
+</style>
+</head>
 
-<div class="nav-logo">
-Doris Cross
-</div>
+<body>
 
-<div class="nav-links">
-
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#timeline">Career</a>
-<a href="#contact">Contact</a>
-
-</div>
-
-</nav>
 <header>
 
 <h1>Doris Cross, MSIM</h1>
@@ -481,20 +426,6 @@ document.querySelectorAll(".fade").forEach(section=>{
 observer.observe(section)
 })
 
-
-  window.addEventListener("scroll",()=>{
-
-const winScroll=document.body.scrollTop || document.documentElement.scrollTop
-const height=document.documentElement.scrollHeight - document.documentElement.clientHeight
-
-const scrolled=(winScroll/height)*100
-
-document.getElementById("progress-bar").style.width=scrolled+"%"
-
-})
-
-
-  
 </script>
 
 
@@ -510,141 +441,7 @@ LinkedIn
 Resume
 </a>
 
-<!-- ═══════════════════════════════════════════════════════════════════════
-     COOKIE CONSENT BANNER
-     Slides up from the bottom of the page on first visit.
-     ACCEPT  → loads Google Analytics (GA4) and saves "accepted" to localStorage
-     DECLINE → saves "declined" to localStorage, GA never loads
-     On return visits, the banner is skipped entirely based on localStorage value.
-     The banner slides away with a CSS transition when either button is clicked.
-     GDPR/CCPA NOTE: Analytics uses anonymize_ip:true — no full IP addresses stored.
-     YOUR GA MEASUREMENT ID: GTM-MHCBGZS (set in the GA script block below)
-═══════════════════════════════════════════════════════════════════════ -->
-<!-- COOKIE CONSENT BANNER -->
-<div id="cookie-banner" style="
-  position: fixed;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: min(680px, calc(100vw - 2rem));
-  background: #111118;
-  color: #f8f7f4;
-  padding: 1.5rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-  z-index: 9999;
-  border: 1px solid rgba(255,255,255,0.1);
-  border-bottom: 3px solid #1a6b6b;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.35);
-  transition: transform 0.4s ease;
-  flex-wrap: wrap;
-">
-  <div style="flex: 1; min-width: 200px;">
-    <div style="font-family:'IBM Plex Mono',monospace; font-size:0.75rem; letter-spacing:0.1em; text-transform:uppercase; color:#2d9191; margin-bottom:0.4rem;">Privacy Notice</div>
-    <p style="font-family:'IBM Plex Sans',sans-serif; font-size:0.92rem; line-height:1.65; color:rgba(248,247,244,0.88); margin:0;">
-      This site uses Google Analytics to understand how visitors engage with our content. We do <strong style="color:#f8f7f4;">not</strong> sell your data or use it for advertising. Analytics are anonymized and no personal information is stored. You can decline and the site works fully either way.
-    </p>
-  </div>
-  <div style="display:flex; gap:0.75rem; flex-shrink:0;">
-    <button id="consent-decline" style="
-      font-family:'IBM Plex Mono',monospace;
-      font-size:0.62rem;
-      letter-spacing:0.12em;
-      text-transform:uppercase;
-      background:transparent;
-      color:rgba(248,247,244,0.5);
-      border:1px solid rgba(255,255,255,0.15);
-      padding:0.55rem 1.1rem;
-      cursor:pointer;
-      transition:all 0.2s;
-    " onmouseover="this.style.borderColor='rgba(255,255,255,0.4)';this.style.color='rgba(248,247,244,0.8)'"
-       onmouseout="this.style.borderColor='rgba(255,255,255,0.15)';this.style.color='rgba(248,247,244,0.5)'">
-      Decline
-    </button>
-    <button id="consent-accept" style="
-      font-family:'IBM Plex Mono',monospace;
-      font-size:0.62rem;
-      letter-spacing:0.12em;
-      text-transform:uppercase;
-      background:#1a6b6b;
-      color:white;
-      border:1px solid #1a6b6b;
-      padding:0.55rem 1.1rem;
-      cursor:pointer;
-      transition:all 0.2s;
-    " onmouseover="this.style.background='#2d9191'"
-       onmouseout="this.style.background='#1a6b6b'">
-      Accept
-    </button>
-  </div>
 </div>
-
-<script>
-  (function() {
-    const CONSENT_KEY = 'siboney_analytics_consent';
-    const GA_ID = 'GTM-MHCBGZS';
-
-    function loadGA() {
-      var s = document.createElement('script');
-      s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
-      document.head.appendChild(s);
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){ window.dataLayer.push(arguments); }
-      window.gtag = gtag;
-      gtag('js', new Date());
-      gtag('config', GA_ID, { anonymize_ip: true });
-    }
-
-    function hideBanner() {
-      var banner = document.getElementById('cookie-banner');
-      if (!banner) return;
-      banner.style.transition = 'transform 0.35s ease, opacity 0.35s ease';
-      banner.style.transform = 'translateX(-50%) translateY(160%)';
-      banner.style.opacity = '0';
-      setTimeout(function() {
-        if (banner.parentNode) banner.parentNode.removeChild(banner);
-      }, 380);
-    }
-
-    var acceptBtn = document.getElementById('consent-accept');
-    var declineBtn = document.getElementById('consent-decline');
-
-    if (acceptBtn) {
-      acceptBtn.addEventListener('click', function() {
-        localStorage.setItem(CONSENT_KEY, 'accepted');
-        loadGA();
-        hideBanner();
-      });
-    }
-
-    if (declineBtn) {
-      declineBtn.addEventListener('click', function() {
-        localStorage.setItem(CONSENT_KEY, 'declined');
-        hideBanner();
-      });
-    }
-
-    // If user already chose, act immediately
-    var saved = localStorage.getItem(CONSENT_KEY);
-    if (saved === 'accepted') {
-      loadGA();
-      hideBanner();
-    } else if (saved === 'declined') {
-      hideBanner();
-    }
-  })();
-</script>
-
-
-
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHCBGZSX"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
   
 </body>
 </html>
